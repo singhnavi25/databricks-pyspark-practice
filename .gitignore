@@ -1,0 +1,23 @@
+# Dev tooling
+.claude/
+CLAUDE.md
+SKILLS.md
+
+# Editor settings
+.vscode/
+
+# Assessment file (not part of the practice collection)
+pyspark_bakehouse_assessment.ipynb
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+
+# macOS
+.DS_Store
+
+# Databricks
+.databricks/
