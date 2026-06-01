@@ -56,6 +56,9 @@ hints/
 ├── Easy/       hint notebooks for all 15 Easy notebooks
 ├── Medium/     hint notebooks for Medium problems that have hints available
 └── Hard/       hint notebooks for Hard problems that have hints available
+
+solutions/
+└── Easy/       reference solutions for all 15 Easy notebooks (open only after a genuine attempt)
 ```
 
 Each practice notebook is self-contained and follows this layout:
@@ -67,13 +70,13 @@ Each practice notebook is self-contained and follows this layout:
 
 ### Suggested workflow
 
-**Learn → Try → Hint → Docs → Solve**
+**Learn → Try → Hint → Docs → Solve → Reference**
 
 1. Run the `## Learn` cell at the top of the notebook to see the pattern
 2. Attempt the problem
 3. If stuck, open the matching `hints/` notebook and reveal one hint at a time
 4. If still stuck, follow the doc links in the `## Learn` section
-5. Never skip straight to the hint - the struggle is where the learning happens
+5. Once you have a working solution, compare it against `solutions/` to see the reference approach and the `# Why:` explanation
 
 ### How hints work
 
