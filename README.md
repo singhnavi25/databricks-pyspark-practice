@@ -53,15 +53,27 @@ notebooks/
 └── Hard/       16 notebooks · 128 problems  - UDFs, performance, Delta Lake, read/write, utilities, security, SQL, capstone
 
 hints/
-├── Easy/       hint notebooks for Easy problems that have hints available
+├── Easy/       hint notebooks for all 15 Easy notebooks
 ├── Medium/     hint notebooks for Medium problems that have hints available
 └── Hard/       hint notebooks for Hard problems that have hints available
 ```
 
-Each practice notebook is self-contained:
-- **Problem statement** - what to solve and expected output columns
-- **Solution cell** - blank, you fill this in
-- **Test cell** - pre-written assertions that validate your answer automatically
+Each practice notebook is self-contained and follows this layout:
+
+1. **`## Learn` section** - a function reference table with official Spark doc links, plus a small runnable worked example you can run before attempting the problems
+2. **Problem statement** - what to solve and expected output columns
+3. **Solution cell** - blank, you fill this in
+4. **Test cell** - pre-written assertions that validate your answer automatically
+
+### Suggested workflow
+
+**Learn → Try → Hint → Docs → Solve**
+
+1. Run the `## Learn` cell at the top of the notebook to see the pattern
+2. Attempt the problem
+3. If stuck, open the matching `hints/` notebook and reveal one hint at a time
+4. If still stuck, follow the doc links in the `## Learn` section
+5. Never skip straight to the hint - the struggle is where the learning happens
 
 ### How hints work
 
@@ -79,6 +91,10 @@ hints/Hard/09_udfs_and_pandas_udfs_hints.ipynb
 ```
 
 Not every problem has a hint - only problems where the key function or pattern is non-obvious.
+
+### Learning path
+
+See [LEARNING_PATH.md](LEARNING_PATH.md) for a suggested week-by-week progression through all 52 notebooks, time estimates, and a progress checklist you can tick off as you go.
 
 ---
 

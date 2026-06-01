@@ -22,7 +22,31 @@ Before submitting, make sure your notebook follows these conventions:
 Every notebook must have this layout, in order:
 1. A title markdown cell with dataset, difficulty, and topics listed
 2. A single setup cell with all imports and `spark.table(...)` calls - no imports scattered elsewhere
-3. For each problem: a markdown cell, then a blank solution cell, then a test cell
+3. A `## Learn` markdown cell + a worked example code cell (see format below)
+4. For each problem: a markdown cell, then a blank solution cell, then a test cell
+
+### Learn cell format
+Every notebook must have a `## Learn` section (two cells) immediately after the setup cell.
+The markdown cell lists the key functions in a table with links to official Spark docs.
+The code cell shows one runnable example using the **same dataset** as the notebook but operating on **different columns or operations** than any problem asks — it teaches the pattern without solving the problems.
+
+```markdown
+## Learn — [short topic name]
+
+| Function | What it does |
+|----------|-------------|
+| `F.funcName(col)` | What it does in one line |
+
+**Docs:** [Link text](url) · [Link text](url)
+```
+
+```python
+# Run this example first — then solve the problems below.
+# NOTE: this example is not a solution to any problem
+
+df = spark.table("samples.catalog.table")
+# ... 3-6 lines showing the pattern
+```
 
 ### Problem format
 ```
