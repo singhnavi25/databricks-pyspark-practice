@@ -22,6 +22,7 @@
 | 8 | Hard 01-08 | Benchmark queries, PII masking, advanced analytics | ~5 hrs |
 | 9 | Hard 09-13 | UDFs, performance tuning, SQL vs DataFrame API, capstone | ~5 hrs |
 | 10 | Hard 14-16 | Delta Lake, read/write, utilities & security | ~4 hrs |
+| 11 | Hard 17-18 | Capstone assessments: TPC-H supply chain + Wanderbricks platform (linked multi-table problems) | ~5 hrs |
 
 ---
 
@@ -87,6 +88,8 @@
 - [ ] Hard 14 — Delta Lake: write/read, append, update, delete, merge, time travel
 - [ ] Hard 15 — Reading and Writing Data: CSV, JSON, Parquet, partitionBy, saveAsTable
 - [ ] Hard 16 — Utilities and Security: hashing, encoding, mapInPandas, repartitionByRange
+- [ ] Hard 17 — Capstone: TPC-H Supply Chain (linked: geography → revenue → late deliveries → supplier ranking → discount impact → full order report)
+- [ ] Hard 18 — Capstone: Wanderbricks Platform (linked: host portfolio → booking revenue → guest behaviour → review quality → cancellations → seasonal patterns → host dashboard)
 
 ---
 

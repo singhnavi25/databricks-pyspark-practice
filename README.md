@@ -1,13 +1,13 @@
 # PySpark Practice - Databricks Notebook Collection
 
-> **52 notebooks | 353 problems | Beginner to Advanced | Zero setup**
+> **54 notebooks | 367 problems | Beginner to Advanced | Zero setup**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Databricks](https://img.shields.io/badge/Databricks-Runtime%2013.0%2B-red)](https://databricks.com)
 [![PySpark](https://img.shields.io/badge/PySpark-3.x%2B-orange)](https://spark.apache.org/docs/latest/api/python/)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-A structured collection of **52 notebooks** and **353 hands-on PySpark problems** covering Apache Spark from beginner to advanced, all powered by the `samples` catalog built into every Databricks workspace - no external data, no setup, no uploads needed.
+A structured collection of **54 notebooks** and **367 hands-on PySpark problems** covering Apache Spark from beginner to advanced, all powered by the `samples` catalog built into every Databricks workspace - no external data, no setup, no uploads needed.
 
 **Who is this for?**
 - Developers learning PySpark and Apache Spark for the first time
@@ -50,7 +50,7 @@ Every major PySpark concept from the DataFrame API to Delta Lake:
 notebooks/
 ├── Easy/       15 notebooks · 75 problems   - fundamentals, strings, dates, nulls, set ops
 ├── Medium/     21 notebooks · 150 problems  - window functions, joins, arrays, maps, higher-order functions, stats, datetime, AI functions
-└── Hard/       16 notebooks · 128 problems  - UDFs, performance, Delta Lake, read/write, utilities, security, SQL, capstone
+└── Hard/       18 notebooks · 142 problems  - UDFs, performance, Delta Lake, read/write, utilities, security, SQL, capstones
 
 hints/
 ├── Easy/       hint notebooks for all 15 Easy notebooks
@@ -192,6 +192,8 @@ All data is in the `samples` catalog - available in every Databricks workspace a
 | Hard 14 | Delta Lake - write/read, append, update, delete, merge/upsert, time travel, schema evolution |
 | Hard 15 | Reading and Writing Data - CSV, JSON, Parquet, options, partitionBy, saveAsTable |
 | Hard 16 | Utilities and Security - hashing, encoding, metadata functions, mapInPandas, repartitionByRange |
+| Hard 17 | Capstone: TPC-H Supply Chain - linked problems across all 8 TPC-H tables (geography → revenue → late deliveries → supplier ranking → discount impact → full order report) |
+| Hard 18 | Capstone: Wanderbricks Platform - linked problems across bookings, hosts, properties, reviews, payments (host portfolio → revenue → guest behaviour → review quality → cancellations → seasonal patterns → host dashboard) |
 
 ---
 
