@@ -1,6 +1,6 @@
 # Learning Path
 
-> **Suggested progression for working through the 52 notebooks.**
+> **Suggested progression for working through the 55 notebooks.**
 > Each week builds on the last — don't skip ahead until the previous section feels natural.
 >
 > Workflow: **Try the problem → check the hint → read the docs → try again.**
@@ -23,16 +23,17 @@
 | 9 | Hard 09-13 | UDFs, performance tuning, SQL vs DataFrame API, capstone | ~5 hrs |
 | 10 | Hard 14-16 | Delta Lake, read/write, utilities & security | ~4 hrs |
 | 11 | Hard 17-18 | Capstone assessments: TPC-H supply chain + Wanderbricks platform (linked multi-table problems) | ~5 hrs |
+| 12 | Hard 19 | Temporal analytics: first/repeat purchases, inter-purchase gaps, churn segmentation, WoW momentum, cohort retention, consecutive streaks | ~4 hrs |
 
 ---
 
 ## Progress Checklist
 
-### Easy (15 notebooks · 75 problems)
+### Easy (15 notebooks · 77 problems)
 
 - [ ] Easy 01 — NYC Taxi Trips: filter, count, agg, sorting
 - [ ] Easy 02 — Bakehouse Customers: groupBy, filter, distinct
-- [ ] Easy 03 — Bakehouse Transactions: aggregation, date, groupBy
+- [ ] Easy 03 — Bakehouse Transactions: aggregation, date, groupBy, F.min/F.max on timestamps, most-recent-order per customer
 - [ ] Easy 04 — Bakehouse Franchises: groupBy, filter, count
 - [ ] Easy 05 — TPC-H Customer: filter, aggregation, groupBy
 - [ ] Easy 06 — TPC-H Orders: filter, date functions, groupBy
@@ -70,7 +71,7 @@
 - [ ] Medium 20 — Statistical Aggregations: stddev, corr, percentile_approx, rollup, cube
 - [ ] Medium 21 — Array and Map Extras: explode_outer, posexplode_outer, map_entries, str_to_map
 
-### Hard (16 notebooks · 128 problems)
+### Hard (19 notebooks · 148 problems)
 
 - [ ] Hard 01 — Advanced Analytics 1
 - [ ] Hard 02 — Advanced Analytics 2
@@ -90,6 +91,7 @@
 - [ ] Hard 16 — Utilities and Security: hashing, encoding, mapInPandas, repartitionByRange
 - [ ] Hard 17 — Capstone: TPC-H Supply Chain (linked: geography → revenue → late deliveries → supplier ranking → discount impact → full order report)
 - [ ] Hard 18 — Capstone: Wanderbricks Platform (linked: host portfolio → booking revenue → guest behaviour → review quality → cancellations → seasonal patterns → host dashboard)
+- [ ] Hard 19 — Temporal Analytics: first vs repeat purchase, inter-purchase gaps, lapsed/active segmentation, WoW revenue momentum, cohort retention rate, consecutive purchase streaks (gaps-and-islands)
 
 ---
 
@@ -113,3 +115,4 @@ Keep these open in a second tab while you work:
 - **Medium 17** (Window Functions Advanced) is the hardest jump in the whole collection. Take extra time there before moving on.
 - **Hard 13** (Capstone) synthesises everything from Medium and Hard — don't attempt it before finishing Hard 09-12.
 - Each notebook has a `## Learn` section at the top with a runnable example. Run it before attempting Problem 1.
+- **Hard 19** (Temporal Analytics) is the hardest purely time-based section in the collection. Problems 5 (cohort retention) and 6 (gaps-and-islands) are especially tricky — read the step outlines carefully before writing any code.
