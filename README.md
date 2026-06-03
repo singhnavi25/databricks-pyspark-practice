@@ -217,6 +217,27 @@ All data is in the `samples` catalog - available in every Databricks workspace a
 
 ---
 
+## Reference Solutions
+
+A complete set of reference solutions for all **55 notebooks** (21 Medium + 19 Hard + 15 Easy) lives in the [`solutions` branch](../../tree/solutions).
+
+```
+solutions/
+├── Easy/     15 notebooks — reference solutions for all Easy problems
+├── Medium/   21 notebooks — reference solutions for all Medium problems
+└── Hard/     19 notebooks — reference solutions for all Hard problems
+```
+
+**Why kept in a separate branch rather than this one?**
+
+The whole point of this repo is deliberate practice — the struggle of working through a problem yourself is where the learning happens. If solutions were a click away in the same branch, it would be too tempting to peek before making a genuine attempt. Keeping them on a separate branch means you have to make an active decision to go look, which preserves the right friction.
+
+The recommended order is still: **Try → Hint → Docs → Solution** — the solution branch is a last resort and a way to check your work after you've solved it, not a shortcut.
+
+> If you want to study the solutions, clone the repo and `git checkout solutions`.
+
+---
+
 ## Contributing
 
 Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for notebook standards, structure guidelines, and how to submit a pull request.
