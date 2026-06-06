@@ -94,7 +94,7 @@ Not every problem has a hint - only problems where the key function or pattern i
 
 ### Learning path
 
-See [LEARNING_PATH.md](LEARNING_PATH.md) for a suggested week-by-week progression through all 52 notebooks, time estimates, and a progress checklist you can tick off as you go.
+See [LEARNING_PATH.md](LEARNING_PATH.md) for a suggested week-by-week progression through all 55 notebooks, time estimates, and a progress checklist you can tick off as you go.
 
 ---
 
