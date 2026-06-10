@@ -37,7 +37,7 @@ The code cell shows one runnable example using the **same dataset** as the noteb
 |----------|-------------|
 | `F.funcName(col)` | What it does in one line |
 
-**Docs:** [Link text](url) · [Link text](url)
+**Docs:** [PySpark Functions](https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/functions.html) · [DataFrame API](https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/dataframe.html)
 ```
 
 ```python
