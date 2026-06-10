@@ -125,7 +125,7 @@ Only add hints where the key function or pattern is genuinely non-obvious. Not e
 1. Fork the repository on GitHub
 2. Create a branch: `git checkout -b add-streaming-notebook`
 3. Make your changes following the standards above
-4. Test that every cell in your notebook runs without error on a Databricks cluster (DBR 13.0+)
+4. Test that every cell in your notebook runs without error on Databricks (Free Edition or any UC-enabled workspace)
 5. Open a pull request with a clear description of what you added or changed
 
 ### PR description should include
