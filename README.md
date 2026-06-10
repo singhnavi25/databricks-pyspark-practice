@@ -79,6 +79,8 @@ Each practice notebook is self-contained and follows this layout:
 
 Practice notebooks contain no hints - the goal is for you to work it out.
 If you're stuck, open the matching `hints/` notebook for that section.
+Easy hint notebooks cover all 15 notebooks. Medium and Hard hint notebooks cover selected problems only - the trickier ones where the key function or pattern is non-obvious. If a problem is not listed in the hint notebook, it is meant to be solvable from the docs and earlier problems.
+
 Hints are wrapped in collapsible `<details>` blocks so you reveal only what you need:
 
 ```
@@ -89,8 +91,6 @@ hints/Hard/09_udfs_and_pandas_udfs_hints.ipynb
         └── <details> Hint 1
         └── <details> Hint 2
 ```
-
-Not every problem has a hint - only problems where the key function or pattern is non-obvious.
 
 ### Learning path
 
