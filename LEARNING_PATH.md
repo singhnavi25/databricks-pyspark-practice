@@ -73,12 +73,12 @@
 
 ### Hard (19 notebooks · 148 problems)
 
-- [ ] Hard 01 — Advanced Analytics 1
-- [ ] Hard 02 — Advanced Analytics 2
-- [ ] Hard 03 — Complex Queries
-- [ ] Hard 04 — TPC-H Benchmark 1
-- [ ] Hard 05 — TPC-H Benchmark 2
-- [ ] Hard 06 — TPC-H Benchmark 3
+- [ ] Hard 01 — NYC Taxi Advanced: window functions, statistical analysis, time series, percentiles, sessionization
+- [ ] Hard 02 — Bakehouse Deep Analytics: multi-table joins, customer LTV, cohort, PII masking, window functions, data quality
+- [ ] Hard 03 — TPC-H Complex Queries: benchmark queries adapted, multi-join, subqueries, window, aggregation
+- [ ] Hard 04 — TPC-DS Retail Analytics: star schema joins, YoY growth, seasonal patterns, promotion analysis
+- [ ] Hard 05 — Wanderbricks Platform: multi-table joins, funnel, occupancy, cohort, struct access, host metrics
+- [ ] Hard 06 — Bakehouse PII and Security: regexp_replace, data quality, deduplication, anomaly detection, masking patterns
 - [ ] Hard 07 — TPC-H Benchmark Queries
 - [ ] Hard 08 — Wanderbricks Advanced BI
 - [ ] Hard 09 — UDFs and Pandas UDFs: @udf, @pandas_udf, applyInPandas

@@ -3,7 +3,7 @@
 > **55 notebooks | 375 problems | Beginner to Advanced | Zero setup**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Databricks](https://img.shields.io/badge/Databricks-Runtime%2013.0%2B-red)](https://databricks.com)
+[![Databricks](https://img.shields.io/badge/Databricks-Free%20Edition-red)](https://databricks.com/learn/free-edition)
 [![PySpark](https://img.shields.io/badge/PySpark-3.x%2B-orange)](https://spark.apache.org/docs/latest/api/python/)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -100,24 +100,23 @@ See [LEARNING_PATH.md](LEARNING_PATH.md) for a suggested week-by-week progressio
 
 ## Getting Started
 
-### Option 1 - Databricks Git Repos (recommended)
+### Option 1 - Git folder in Databricks (recommended)
 
-The simplest way. Works on any Databricks plan including Community Edition.
+The simplest way. Works on Free Edition and any paid workspace.
 
-1. Open your Databricks workspace
-2. Go to **Workspace → Repos → Add Repo**
-3. Paste this repo URL and click **Create Repo**
-4. Open any notebook in `notebooks/Easy/`
-5. Attach a cluster, write your solution, run the test cell
+1. Sign up at [databricks.com/learn/free-edition](https://databricks.com/learn/free-edition) (or use an existing workspace with Unity Catalog)
+2. Go to **Workspace → Create → Git folder**
+3. Paste this repo URL and click **Create**
+4. Open any notebook in `notebooks/Easy/`, write your solution, run the test cell
 
-> Any cluster running **Databricks Runtime 13.0+** works. The `samples` catalog is available on all runtimes.
+> Free Edition uses serverless compute — notebooks run immediately with no cluster setup.
 
-### Option 2 - Community Edition (no Git access)
+### Option 2 - Manual import
 
 1. Download this repo as a ZIP from GitHub
 2. In Databricks, go to **Workspace → Import**
-3. Upload the `.ipynb` files one by one (or zip the folder and import as a directory)
-4. Open any notebook and attach the free Community cluster
+3. Upload the `.ipynb` files (or import as a directory)
+4. Open any notebook and run — serverless compute starts automatically
 
 ### Option 3 - Databricks Asset Bundles (DABs)
 
@@ -140,8 +139,8 @@ databricks bundle deploy --target dev
 
 | Requirement | Details |
 |---|---|
-| Databricks workspace | Any tier - Community Edition works |
-| Cluster runtime | DBR 13.0+ (Photon optional) |
+| Databricks workspace | Free Edition or any Unity Catalog-enabled workspace |
+| Compute | Serverless (default on Free Edition) |
 | `samples` catalog | Available by default in all Databricks workspaces |
 | External data files | None - everything reads from `samples.*` Unity Catalog tables |
 
@@ -157,7 +156,9 @@ All data is in the `samples` catalog - available in every Databricks workspace a
 | `samples.bakehouse` | 6 tables | Bakery franchise sales, customers, reviews |
 | `samples.tpch` | 8 tables | TPC-H supply chain benchmark |
 | `samples.tpcds_sf1` | 24 tables | TPC-DS retail data warehouse benchmark |
-| `samples.wanderbricks` | 16 tables | Airbnb-style rental platform |
+| `samples.wanderbricks` | 9 tables | Airbnb-style rental platform |
+
+> Notebooks Hard 14 and Hard 15 write intermediate files to a Unity Catalog Volume (`/Volumes/workspace/default/practice_io/`) created automatically by the setup cell.
 
 ---
 
